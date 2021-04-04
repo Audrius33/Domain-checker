@@ -1,0 +1,66 @@
+.d-flex {
+    display: flex;
+}
+.d-align {
+    align-items: center;
+}
+.d-justify {
+    justify-content: center;
+}
+.d-none {
+    display: none;
+}
+.d-column {
+    flex-direction: column;
+}
+.showButtons {
+    display: flex;
+}
+body
+{
+    margin:0;
+    background-color: #6d2c0b;
+    color:#f9fcf5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*.login {*/
+/*    display: none;*/
+/*}*/
+.register-z {
+    display: none;
+    margin: 10px;
+}
+.t-deco {
+    text-decoration: none;
+}
+
+
+#main{width:600px; height:auto; overflow:hidden; padding-bottom:20px; margin-left:auto; margin-right:auto;
+    border-radius:5px; padding-left:10px; margin-top:100px; border-top:3px double #f1f1f1;
+    border-bottom:3px double #f1f1f1; padding-top:20px;
+}
+
+#main table{font-family:"Comic Sans MS", cursive;}
+
+#main .tb{height:28px; width:230px; border:1px solid #f26724; color:#fd7838; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;}
+
+#main .tb:focus{height:28px; border:1px solid #f26724; outline:none; border-left:5px solid #f7f7f7;}
+
+
+#main .btn{width:150px; height:32px; outline:none;  font-weight:bold; border:0 solid #5d504b;
+    text-shadow: 0 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #6d6c6c; letter-spacing: 1px;
+    cursor: pointer;
+    font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+
+.buttonShow {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn2 {
+    margin: 10px;
+    background-color: darkgray;
+    padding: 10px;
+    cursor: pointer;
+}

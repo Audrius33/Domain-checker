@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Title</title>
+</head>
+<body class="d-flex d-justify d-column">
+
+
+
+
+<h2 class="register-z"><a class="t-deco" style="color: white" href="index.html">Register</a></h2>
+
+<!-- Main div code -->
+<div id="main">
+
+
+
+    <!-- create account div -->
+    <div class="registration">
+        <div class="h-tag">
+            <h2>Create Your Account</h2>
+        </div>
+        <table cellspacing="2" align="center" cellpadding="8" border="0">
+
+            <tr>
+                <td align="right">Enter Username :</td>
+                <td><input type="text" placeholder="Enter Username here" id="t3" class="tb" /></td>
+            </tr>
+            <tr>
+                <td align="right">Enter Password :</td>
+                <td><input type="password" placeholder="Enter Password here" id="t4" class="tb" /></td>
+            </tr>
+            <tr>
+                <td align="right">Enter Confirm Password :</td>
+                <td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+                    <input type="submit" value="Create Account" class="btn" onclick="registration()" /></td>
+            </tr>
+        </table>
+        <div id="regError"></div>
+    </div>
+    <!-- create account box ending here.. -->
+    <div class="login">
+        <div class="h-tag">
+            <h2>Login</h2>
+        </div>
+        <table cellspacing="2" align="center" cellpadding="8" border="0">
+
+            <tr>
+                <td align="right">Enter Username :</td>
+                <td><input type="text" placeholder="Enter Username here" id="t6" class="tb loginName" /></td>
+            </tr>
+            <tr>
+                <td align="right">Enter Password :</td>
+                <td><input type="password" placeholder="Enter Password here" id="t7" class="tb loginPass" /></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="Clear Form" onclick="clearFunc2()" id="res2" class="btn" />
+                    <input type="submit" value="Login" id="loginBtn" class="btn" /></td>
+            </tr>
+        </table>
+        <div id="logError2"></div>
+    </div>
+</div>
+<!-- Main div ending here... -->
+<div class="buttonShow d-flex d-align d-justify d-none">
+    <div class="btn2 d-flex d-align d-justify">Show Cards</div>
+    <button id="logOut" style="color: white" class="btn2"><span style="font-size: 15px; border: none">Logout</span> </button>
+</div>
+<div class="cards">
+
+</div>
+</body>
+
+</html>
+

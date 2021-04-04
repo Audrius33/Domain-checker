@@ -1,0 +1,39 @@
+.post-section {
+    width: 400px;
+    height: 200px;
+    background-color: #c45757;
+}
+.d-flex {
+    display: flex;
+}
+.d-justify {
+    justify-content: center;
+}
+.d-align {
+    align-items: center;
+}
+.f-direction {
+    flex-direction: column;
+}
+.m-10 {
+    margin-right: 60px;
+}
+.m-11 {
+    margin-right: 16px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkcyan;
+    overflow: hidden;
+}
+.openModal {
+    display: none;
+    width: 400px;
+    height: 200px;
+    background-color: #c45757;
+}

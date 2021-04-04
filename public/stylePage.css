@@ -1,0 +1,27 @@
+.main {
+    background-color: darkcyan;
+    height: 700px;
+    width: 700px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-justify {
+    justify-content: center;
+}
+
+.d-align {
+    align-items: center;
+}
+
+.d-column {
+    flex-direction: column;
+}
+
+#source {
+    width: 400px;
+    height: 500px;
+
+}
